@@ -1,0 +1,27 @@
+header {
+    background-color: #007bff; /* Primary background color */
+    color: #fff; /* White text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the header */
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1200px; /* Optional: You can set a max-width if desired */
+    margin: 0 auto; /* Center the container */
+    padding: 1.5rem; /* Padding for the header */
+    display: flex; /* Flex layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.header-button {
+    background: none; /* No background for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    margin-left: 1rem; /* Space between buttons */
+}
+
+.header-button:hover {
+    opacity: 0.8; /* Slightly dim on hover */
+}
