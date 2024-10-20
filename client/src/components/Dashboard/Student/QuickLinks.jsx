@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import StyledButton from '../ui/StyledButton';
+import StyledButton from '../../ui/StyledButton';
 import { Work as WorkIcon, School as SchoolIcon, Message as MessageIcon } from '@mui/icons-material';
 
 const QuickLinks = () => {

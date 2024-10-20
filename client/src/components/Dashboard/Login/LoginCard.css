@@ -1,0 +1,82 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center; /* Center align text */
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.toggle-button.active {
+    background-color: #0056b3;
+}
+
+.login-form {
+    display: none; /* Initially hidden */
+    opacity: 0; /* Start hidden for animation */
+    transition: opacity 0.5s ease; /* Transition for fade-in effect */
+}
+
+.login-form.show {
+    display: block; /* Show form when class is added */
+    opacity: 1; /* Fade in effect */
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-form input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}

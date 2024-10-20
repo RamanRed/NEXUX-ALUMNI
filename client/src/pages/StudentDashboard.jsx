@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
-import AlumniList from '../components/Dashboard/AlumniList'
-import CareerStatsChart from '../components/Dashboard/CareerStatsChart'
-import UpcomingEventsList from '../components/Dashboard/UpcomingEventsList'
-import MentorshipList from '../components/Dashboard/MentorshipList'
-import QuickLinks from '../components/Dashboard/QuickLinks'
+import AlumniList from '../components/Dashboard/Student/AlumniList'
+import CareerStatsChart from '../components/Dashboard/Student/CareerStatsChart'
+import UpcomingEventsList from '../components/Dashboard/Student/UpcomingEventsList'
+import MentorshipList from '../components/Dashboard/Student/MentorshipList'
+import QuickLinks from '../components/Dashboard/Student/QuickLinks'
 
 // Assume these services are implemented
 import { getTopAlumni, getCareerStats, getUpcomingEvents, getMentorshipOpportunities } from '../services/studentService'
