@@ -10,6 +10,7 @@ import QuickLinks from '../components/Dashboard/Student/QuickLinks'
 
 // Assume these services are implemented
 import { getTopAlumni, getCareerStats, getUpcomingEvents, getMentorshipOpportunities } from '../services/studentService'
+import { Widgets } from '@mui/icons-material'
 
 export default function StudentDashboard() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -34,7 +35,7 @@ export default function StudentDashboard() {
   return (
     <div>
       <Header />
-      <main className="container mx-auto px-4 py-6">
+      <main className="container" style={{ width: '100%' }}>
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <AlumniList alumni={topAlumni} searchTerm={searchTerm} />
