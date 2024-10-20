@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Header() {
+const Header = () => {
   return (
     <header className="bg-primary text-primary-foreground shadow-md">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
@@ -25,3 +25,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header
